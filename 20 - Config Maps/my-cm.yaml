@@ -1,0 +1,12 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: my-cm
+data:
+  #Connection database config
+  my.config.db: |
+    database: mysql
+    database_uri: mysql://localhost:3306
+  test.field: hello
+  test2: hello2
+immutable: true
