@@ -1,7 +1,7 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: pod-cm-env
+  name: pod-cm-vol
 spec:
   containers:
   - name: my-container
