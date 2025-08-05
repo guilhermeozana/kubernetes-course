@@ -25,5 +25,8 @@ spec:
     type: web-app
   ports:
     - name: http
-      port: 86
-      targetPort: 86
+      port: 80
+      targetPort: 80
+    - name: tomcat
+      port: 8080
+      targetPort: 8080
