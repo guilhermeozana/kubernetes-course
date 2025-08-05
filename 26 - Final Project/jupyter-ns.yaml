@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: jupyter
+  annotations:
+    desc: "Namespace for Jupyter Notebook Application"
+    proj: "K8s Course Final Project"
+    owner: "Guilherme Campos"
+    phone: 123-456-789
+  
